@@ -1,0 +1,45 @@
+
+.container-main-Carousel {
+    margin: 25px;
+    text-align: center;
+    
+}
+.container-card-Carousel {
+overflow: hidden;
+}
+
+.container-card-Carousel .imagen-Carousel {
+    width: 70vw;
+    height: 40vw;
+    
+
+    max-width: 1100px;
+  max-height: 600px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    
+}
+
+.container-card-Carousel .text-Carousel{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background: #007F86;
+    padding: 10px;
+    font-size: 21px;
+    max-width: 1100px;
+     max-height: 600px;
+    width: 70vw;
+}
+
+.titulo-main{
+    font-size: 36px;
+    color: #111;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: bounce 1.5s infinite;
+    text-align: center;
+    }
