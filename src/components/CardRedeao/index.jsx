@@ -1,7 +1,6 @@
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
 
-function KitchenSinkExample() {
+function card() {
   return (
     <Card style={{ width: '25rem' }}>
         <Card.Header>Rodrigo Junqueira, de São Paulo (SP)</Card.Header>
@@ -11,7 +10,7 @@ function KitchenSinkExample() {
         <Card.Text>
         No livro "Ideias para Adiar o Fim do Mundo", Ailton Krenak critica o distanciamento entre a população brasileira como um todo e a natureza, o que não se aplica às comunidades indígenas. Tal pensamento é extremamente atual, já que não só indígenas como todas as populações tradicionais têm uma relação de respeito mútuo com a natureza, aspectos que as diferenciam do resto dos brasileiros. Com isso, a agressão ao meio ambiente e o apagamento dos saberes ancestrais configuram desafios para a valorização de comunidades e povos tradicionais no Brasil.
         </Card.Text>
-      
+        <Card.Link href="#">Ver mais +</Card.Link>
         
       </Card.Body>
       
@@ -20,4 +19,4 @@ function KitchenSinkExample() {
   );
 }
 
-export default KitchenSinkExample;
+export default card;

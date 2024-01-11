@@ -9,8 +9,8 @@ overflow: hidden;
 }
 
 .container-card-Carousel .imagen-Carousel {
-    width: 70vw;
-    height: 40vw;
+    width: 60vw;
+    height: 30vw;
     
 
     max-width: 1100px;
@@ -33,7 +33,7 @@ overflow: hidden;
     font-size: 21px;
     max-width: 1100px;
      max-height: 600px;
-    width: 70vw;
+    width: 60vw;
 }
 
 .titulo-main{

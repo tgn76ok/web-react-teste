@@ -1,0 +1,63 @@
+
+.disciplinas {
+  list-style-type: none;
+  padding: 0;
+  width: 70%;
+
+}
+
+.disciplina {
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.itens {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+.itens li {
+  margin: 5px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.button {
+  flex: 1; 
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.Assunto-titulo{
+
+  padding: 10px;
+}
+
+.titulo_assunto{
+  display: block;
+    text-align: center;
+    background-color: #007F86;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+.titulo_assunto:hover{
+  background-color: #ADD8E6;
+  text-decoration: none;
+  color: #007F86;
+}

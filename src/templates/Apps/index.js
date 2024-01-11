@@ -6,9 +6,6 @@ function App() {
   return (
     <div className="App">
       <HeaderG/>
-      <hr />
-      <hr />
-      <hr />
     <section class="container text-center">
         <h1 className='titulo-main'>Bem-vindo à sua Jornada para o Sucesso no ENEM!</h1>
        <br />
@@ -18,7 +15,7 @@ function App() {
     </section>
     
     <section class="container text-center ">
-        <a class="btn btn-primary" href="Assuntos/index.html">ACESSE AQUI E CONFIRA OS ASSUNTOS QUE MAIS CAEM <br/>NO ENEM E DICAS DE CURSINHOS PARA CADA ÁREA DE CONHECIMENTO</a>
+        <a class="btn btn-primary" href="/Assunto">ACESSE AQUI E CONFIRA OS ASSUNTOS QUE MAIS CAEM <br/>NO ENEM E DICAS DE CURSINHOS PARA CADA ÁREA DE CONHECIMENTO</a>
     </section>
 
 

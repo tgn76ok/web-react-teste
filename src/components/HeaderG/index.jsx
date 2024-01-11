@@ -9,7 +9,8 @@ import './styles.css';
 
 function OffcanvasExample() {
   return (
-    <>
+    <header className='Header-global'>
+
        <Navbar key={'lg'}  expand={'lg'} fixed="top" className="NavBar-menu">
           <Container fluid>
             <Navbar.Brand href="#" className="Canvas-menu">Projeto ENEM</Navbar.Brand>
@@ -27,25 +28,25 @@ function OffcanvasExample() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/NotaMil">Provas Antigas</Nav.Link>
-                  <Nav.Link href="#action2">Calculadora de Notas</Nav.Link>
+                  <Nav.Link href="/ProvasAntigas">Provas Antigas</Nav.Link>
+                  <Nav.Link href="/Calculadora">Calculadora de Notas</Nav.Link>
                   <Nav.Link href="#action2">Cronometro</Nav.Link>
                   <Nav.Item  href="#action2">
                     <Button>Login</Button>
+                    
                     <Button>Cadastro</Button>
                   </Nav.Item >
-                  <Nav.Link href="#action2">Link</Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
+                    title="Redação"
                     id={`offcanvasNavbarDropdown-expand-lg`}
                   >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action3">Dicas</NavDropdown.Item>
                     <NavDropdown.Item href="#action4">
-                      Another action
+                      Nota Mil
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">
-                      Something else here
+                      Folha em PDF
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
@@ -54,7 +55,7 @@ function OffcanvasExample() {
             </Navbar.Offcanvas>
           </Container>
         </Navbar>
-    </>
+      </header>
   );
 }
 

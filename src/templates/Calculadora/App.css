@@ -1,0 +1,35 @@
+.Label-notas{
+  display: block;
+    font-weight: bold;
+    color: #007F86;
+    margin-top: 10px;
+}
+
+.input-notas{
+  width: 80px;
+  padding: 8px;
+  margin: 5px 0;
+  border: 2px solid #007F86;
+  border-radius: 5px;
+}
+
+.notas {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #007F86;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 350px;
+  width: 350px;
+}
+
+.main-notas{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ADD8E6;
+}
