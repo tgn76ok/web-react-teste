@@ -43,3 +43,45 @@ overflow: hidden;
     animation: bounce 1.5s infinite;
     text-align: center;
     }
+
+
+    
+@media screen and (max-width: 700px)  {
+
+    .container-card-Carousel .text-Carousel{
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #fff;
+        background: #007F86;
+        padding: 6px;
+        font-size: 18px;
+        max-width: 1100px;
+        max-height: 600px;
+        width: 70vw;
+    }
+    
+    
+}
+
+@media screen and (max-width: 500px)  {
+
+    .container-card-Carousel .text-Carousel{
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #fff;
+        background: #007F86;
+        padding: 4px;
+        font-size: 15px;
+        max-width: 1100px;
+        max-height: 600px;
+        width: 70vw;
+    }
+    
+    
+}

@@ -6,8 +6,12 @@ function App() {
   return (
     <div className="App">
       <HeaderG/>
+      <hr />
+      <hr />
+      <hr />
     <section class="container text-center">
         <h1 className='titulo-main'>Bem-vindo à sua Jornada para o Sucesso no ENEM!</h1>
+       <br />
         <p>Este é o seu ponto de partida para uma preparação sólida e eficaz no ENEM. Aqui, você terá acesso a ferramentas para calcular sua nota, valiosas dicas de cursinhos e a conveniência de baixar folhas de redação em PDF para aprimorar suas habilidades e atingir o seu melhor desempenho no Exame Nacional do Ensino Médio.</p>
         <p class="inicio">Prepare-se, vamos começar!</p>
         
@@ -18,6 +22,7 @@ function App() {
     </section>
 
 
+      <hr />
     <Carousel/>
 
     </div>

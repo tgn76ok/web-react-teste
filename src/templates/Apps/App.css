@@ -25,3 +25,17 @@
       transform: translateY(-5px);
   }
 }
+
+.inicio {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007F86;
+  padding: 10px 0;
+  border: 2px solid #007F86;
+  border-radius: 15px;
+  margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}

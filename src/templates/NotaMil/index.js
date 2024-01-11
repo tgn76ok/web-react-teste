@@ -1,22 +1,26 @@
 import './App.css';
+import CardRedeao from '../../components/CardRedeao';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Main">
+           <div className='card'>
+           <CardRedeao/>
+           </div>
+           <div className='card'>
+           <CardRedeao/>
 
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          teste
-        </a>
-      </header>
+           </div><div className='card'>
+           <CardRedeao/>
+
+</div><div className='card'>
+
+<CardRedeao/>
+</div>
+       
     </div>
   );
 }
