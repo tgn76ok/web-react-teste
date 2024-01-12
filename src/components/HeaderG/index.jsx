@@ -40,7 +40,7 @@ function OffcanvasExample() {
                     title="Redação"
                     id={`offcanvasNavbarDropdown-expand-lg`}
                   >
-                    <NavDropdown.Item href="#action3">Dicas</NavDropdown.Item>
+                    <NavDropdown.Item href="/Dicas">Dicas</NavDropdown.Item>
                     <NavDropdown.Item href="#action4">
                       Nota Mil
                     </NavDropdown.Item>

@@ -1,6 +1,5 @@
 import './App.css';
-import Carousel from '../../components/Carousel';
-import HeaderG from '../../components/HeaderG';
+
 
 function App() {
   return (
@@ -24,7 +23,10 @@ function App() {
             <label for="Nota5" className='Label-notas'> Sua nota em Redação:</label>
 
             <input type="number" name="Nota5" className='input-notas'/>
-            <button type="button" id="calcularButton">Calcular Nota</button>
+            
+            
+            <button type="button" className="Button-notas" id="calcularButton">Calcular Nota</button>
+            
             <div id="resultado" class="resultado"></div>
 
         </form>

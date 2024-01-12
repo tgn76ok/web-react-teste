@@ -6,6 +6,7 @@ import NotaMil from './templates/NotaMil';
 import ProvasAntigas from './templates/ProvasAntigas';
 import Assuntos from './templates/Assuntos';
 import Calculadora from './templates/Calculadora';
+import Dicas from './templates/Dicas';
 import reportWebVitals from './reportWebVitals';
 
 import HeaderG from './components/HeaderG'
@@ -27,6 +28,7 @@ root.render(
         <Route path="/ProvasAntigas" element={<ProvasAntigas/>}  />
         <Route path="/Assunto" element={<Assuntos/>}  />
         <Route path="/Calculadora" element={<Calculadora/>}  />
+        <Route path="/Dicas" element={<Dicas/>}  />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
