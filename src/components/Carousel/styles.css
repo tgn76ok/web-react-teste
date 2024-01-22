@@ -1,27 +1,27 @@
 
-.container-main-Carousel {
+.container-main-Carousel1 {
     margin: 25px;
     text-align: center;
     
 }
-.container-card-Carousel {
+.container-card-Carousel1 {
 overflow: hidden;
 }
 
-.container-card-Carousel .imagen-Carousel {
+.container-card-Carousel1 .imagen-Carousel1 {
     width: 60vw;
     height: 30vw;
     
 
-    max-width: 1000px;
-  max-height: 500px;
+    max-width: 930px;
+  max-height: 450px;
     justify-content: center;
     align-items: center;
     border-radius: 3%;
     
 }
 
-.container-card-Carousel .text-Carousel{
+.container-card-Carousel1 .text-Carousel1{
     position: absolute;
     bottom: 40px;
     left: 50%;
@@ -31,12 +31,12 @@ overflow: hidden;
     background: #007F86;
     padding: 10px;
     font-size: 21px;
-    max-width: 1000px;
-     max-height: 600px;
+    max-width: 930px;
+  max-height: 450px;
     width: 60vw;
 }
 
-.titulo-main{
+.titulo-main1{
     font-size: 36px;
     color: #111;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -48,7 +48,7 @@ overflow: hidden;
     
 @media screen and (max-width: 700px)  {
 
-    .container-card-Carousel .text-Carousel{
+    .container-card-Carousel1 .text-Carousel1{
         position: absolute;
         bottom: 40px;
         left: 50%;
@@ -68,7 +68,7 @@ overflow: hidden;
 
 @media screen and (max-width: 500px)  {
 
-    .container-card-Carousel .text-Carousel{
+    .container-card-Carousel1 .text-Carousel1{
         position: absolute;
         bottom: 40px;
         left: 50%;

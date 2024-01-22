@@ -14,12 +14,11 @@ function App() {
         
     </section>
     
-    <section class="container text-center ">
-        <a class="btn btn-primary" href="/Assunto">ACESSE AQUI E CONFIRA OS ASSUNTOS QUE MAIS CAEM <br/>NO ENEM E DICAS DE CURSINHOS PARA CADA ÁREA DE CONHECIMENTO</a>
+    <section class="container text-center mt-3 mb-3 ">
+        <a class="botton-main" href="/Assunto">ACESSE AQUI E CONFIRA OS ASSUNTOS QUE MAIS CAEM <br/>NO ENEM E DICAS DE CURSINHOS PARA CADA ÁREA DE CONHECIMENTO</a>
     </section>
 
 
-      <hr />
     <Carousel/>
 
     </div>

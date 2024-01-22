@@ -41,7 +41,7 @@ function OffcanvasExample() {
                     id={`offcanvasNavbarDropdown-expand-lg`}
                   >
                     <NavDropdown.Item href="/Dicas">Dicas</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item href="/NotaMil">
                       Nota Mil
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
