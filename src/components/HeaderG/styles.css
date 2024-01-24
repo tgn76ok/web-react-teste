@@ -1,18 +1,29 @@
-.NavBar-menu{
-    background-color:#007F86 ;
-    text-align: center;
+.offcanvas {
+  position: fixed;
+  top: 56px; /* altura da barra de navegação */
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+  z-index: 1;
 }
 
-a .nav-link{
-    text-align: center;
-
+.offcanvas.show {
+  transform: translateX(0);
 }
 
-.offcanvas-header{
-    background-color:#4aa8ad ;
-
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
 
-.Header-global{
-    padding-bottom: 43.4px;
-}
