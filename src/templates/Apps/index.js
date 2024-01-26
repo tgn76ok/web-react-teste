@@ -1,11 +1,9 @@
 import './App.css';
 import Carousel from '../../components/Carousel';
-import HeaderG from '../../components/HeaderG';
-
+import Feedback from '../../components/Feedback';
 function App() {
   return (
     <div className="App">
-      <HeaderG/>
     <section class="container text-center">
         <h1 className='titulo-main'>Bem-vindo à sua Jornada para o Sucesso no ENEM!</h1>
        <br />
@@ -18,9 +16,8 @@ function App() {
         <a class="botton-main" href="/Assunto">ACESSE AQUI E CONFIRA OS ASSUNTOS QUE MAIS CAEM <br/>NO ENEM E DICAS DE CURSINHOS PARA CADA ÁREA DE CONHECIMENTO</a>
     </section>
 
-
     <Carousel/>
-
+    <Feedback/>
     </div>
   );
 }
