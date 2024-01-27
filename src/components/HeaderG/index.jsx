@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function OffcanvasExample() {
   return (
     <>
@@ -22,9 +23,9 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Calculadora de Notas</Nav.Link>
+                  <Nav.Link href="">Calculadora de Notas</Nav.Link>
                   <Nav.Link href="#action2">Provas Antigas</Nav.Link>
-                  <Nav.Link href="#action2">Cronometro</Nav.Link>
+                  <Nav.Link href="#cronometro">Cronometro</Nav.Link>
 
                   <NavDropdown title="Redação" id={`offcanvasNavbarDropdown-expand-${expand}`}>
       <NavDropdown.Item href="">Dicas</NavDropdown.Item>

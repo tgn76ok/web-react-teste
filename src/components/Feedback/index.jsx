@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';  // Certifique-se de ajustar o caminho conforme a estrutura do seu projeto
+import './styles.css';  
 
 const FAQ = () => {
   return (
