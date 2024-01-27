@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1 1 300px;
+  flex: 1 1 500px;
   margin: 6px;
   flex-wrap: wrap;  
 
@@ -36,9 +36,9 @@ body {
 .Prova-main-card-conteudo{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;  
-
+  flex: 1 1 345px;
 
 }

@@ -30,7 +30,7 @@ function OffcanvasExample() {
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/ProvasAntigas">Provas Antigas</Nav.Link>
                   <Nav.Link href="/Calculadora">Calculadora de Notas</Nav.Link>
-                  <Nav.Link href="#action2">Cronometro</Nav.Link>
+                  <Nav.Link href="/Cronometro">Cronometro</Nav.Link>
                   <Nav.Item  href="#action2">
                     <Button>Login</Button>
                     

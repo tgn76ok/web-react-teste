@@ -52,7 +52,6 @@ function App() {
 
 
 
-        <div>
   
           <h2>2022</h2>
           <div>
@@ -60,7 +59,6 @@ function App() {
             <a href="EnemImpresso/2022_GB_impresso_D1_CD1(gabarito).pdf" download>Gabarito ENEM impresso 2022 (caderno azul)</a>
 
           </div>
-        </div>
        
         <div>
 
