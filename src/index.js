@@ -7,6 +7,7 @@ import ProvasAntigas from './templates/ProvasAntigas';
 import Assuntos from './templates/Assuntos';
 import Calculadora from './templates/Calculadora';
 import Dicas from './templates/Dicas';
+import Cronometro from './templates/cronometro'
 import reportWebVitals from './reportWebVitals';
 
 import HeaderG from './components/HeaderG'
@@ -29,6 +30,7 @@ root.render(
         <Route path="/Assunto" element={<Assuntos/>}  />
         <Route path="/Calculadora" element={<Calculadora/>}  />
         <Route path="/Dicas" element={<Dicas/>}  />
+        <Route path="/Cronometro" element={<Cronometro/>}  />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
